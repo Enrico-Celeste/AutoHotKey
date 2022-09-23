@@ -5,16 +5,16 @@
 count1 = 0
 count2 = 0
 
-~!^z::   
+~!^z::      ;to count ctrl alt z
 count1 += 1
 return
-~^z::   
+~^z::       ;to count ctrl z
 count2 += 1
 return
-^a::   
+^a::        ;to show the number of times pressed
 MsgBox, ctrl alt z = %count1% `nctrl z = %count2%
 return
-^d::   
+^d::        ;to reset the counter
 count1 = 0
 count2 = 0
 return
