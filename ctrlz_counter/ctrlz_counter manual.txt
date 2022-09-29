@@ -1,5 +1,3 @@
 ctrl a - Show how many times crtl z and crtl alt z has been pressed.
 
 ctrl d - resets counter.
-
-alteração no codigo
